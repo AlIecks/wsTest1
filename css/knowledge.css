@@ -70,14 +70,25 @@ h2 {
     color    : var(--color-1);
 }
 
-.author-date {
-    display: flex;
+@media all and (max-width: 410px) {
+    h2 {
+        font-size: 20px;
+    }
+}
 
+.author-date {
+    display: inline-flex;
 }
 
 .author-date>* {
     margin   : 0;
     font-size: 15px;
+}
+
+@media all and (max-width: 410px) {
+    .author-date>* {
+        font-size: 13px;
+    }
 }
 
 .author {
