@@ -77,7 +77,13 @@ h2 {
 }
 
 .author-date {
-    display: inline-flex;
+    display: flex;
+}
+
+@media all and (max-width: 410px) {
+    .author-date {
+        flex-direction: column;
+    }
 }
 
 .author-date>* {
@@ -93,6 +99,7 @@ h2 {
 
 .author {
     padding-right: 15px;
+    font-weight  : bold;
 }
 
 .date {
