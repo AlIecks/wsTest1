@@ -52,6 +52,10 @@ nav ul li.items {
         padding: 15px 0;
     }
 
+    #cButton {
+        padding-bottom: 30px;
+    }
+
     nav ul li.items {
         width  : 100%;
         display: none;
