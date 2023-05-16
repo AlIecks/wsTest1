@@ -1,272 +1,277 @@
-@import url("variables.css");
+ @import url("variables.css");
 
-#header {
-    background-color: var(--color-2);
-    padding-top     : 0;
-    padding-bottom  : 0;
-}
+ #header {
+     background-color: var(--color-2);
+     padding-top     : 0;
+     padding-bottom  : 0;
+ }
 
-#first {
-    background-color: var(--color-3);
-}
+ #first {
+     background-color: var(--color-3);
+ }
 
-#second {
-    background-color: var(--color-2);
-}
+ #second {
+     background-color: var(--color-2);
+ }
 
-#closing {
-    background-color: var(--color-3);
-}
+ #closing {
+     background-color: var(--color-3);
+ }
 
-.cont-1 {
-    display       : flex;
-    flex-direction: column;
-    gap           : 30px;
-    padding       : 10px;
-}
+ .cont-1 {
+     display       : flex;
+     flex-direction: column;
+     gap           : 30px;
+     padding       : 10px;
+ }
 
-.text {
-    display        : flex;
-    justify-content: flex-start;
-    flex-direction : column;
-    gap            : 15px;
-    max-width      : 600px;
-    margin         : 0;
-}
+ .text {
+     display        : flex;
+     justify-content: flex-start;
+     flex-direction : column;
+     gap            : 15px;
+     max-width      : 600px;
+     margin         : 0;
+ }
 
-.text p {
-    margin: 0;
-}
-
-
-.article {
-    background-color: var(--color-8);
-    display         : flex;
-    justify-content : flex-start;
-    flex-direction  : column;
-    gap             : 15px;
-    margin          : 20px 0;
-    border-top      : 3px solid var(--color-4);
-    border-radius   : 2px;
-    padding         : 20px;
-}
-
-.article>* {
-    margin         : 0;
-    justify-content: flex-start;
-    max-width      : 600px;
-}
-
-#kw {
-    margin-bottom: 20px;
-}
-
-hr.divider {
-    border: 1px solid var(--color-5);
-}
-
-h2 {
-    font-size: 30px;
-    color    : var(--color-1);
-}
-
-@media all and (max-width: 410px) {
-    h2 {
-        font-size: 20px;
-    }
-}
-
-.author-date {
-    display: flex;
-}
-
-@media all and (max-width: 410px) {
-    .author-date {
-        flex-direction: column;
-    }
-}
-
-.author-date>* {
-    margin   : 0;
-    font-size: 15px;
-}
-
-@media all and (max-width: 410px) {
-    .author-date>* {
-        font-size: 13px;
-    }
-}
-
-.author {
-    padding-right: 15px;
-    font-weight  : bold;
-}
-
-.date {
-    border-left : 3px solid var(--color-4);
-    padding-left: 15px;
-}
-
-@media all and (max-width: 410px) {
-    .date {
-        border-left : unset;
-        padding-left: unset;
-        padding-top : 10px;
-    }
-}
+ .text p {
+     margin: 0;
+ }
 
 
-.illustr {
-    margin-top: 10px;
-}
+ .article {
+     background-color: var(--color-8);
+     display         : flex;
+     justify-content : flex-start;
+     flex-direction  : column;
+     gap             : 15px;
+     margin          : 20px 0;
+     border-top      : 3px solid var(--color-4);
+     border-radius   : 2px;
+     padding         : 20px;
+ }
 
-.illustr img {
-    width        : 100%;
-    border-radius: 0.5%;
-}
+ .article>* {
+     margin         : 0;
+     justify-content: flex-start;
+     max-width      : 600px;
+ }
 
-.credit {
-    font-size  : x-small;
-    color      : dimgray;
-    margin-left: 5px;
-}
+ #kw {
+     margin-bottom: 20px;
+ }
 
-.credit a {
-    text-decoration: none;
-    color          : unset;
-    font-style     : unset;
-}
+ hr.divider {
+     border: 1px solid var(--color-5);
+ }
 
-.credit::after {
-    content    : '\f35d';
-    font-family: "Font Awesome 5 free";
-    font-weight: 900;
-}
+ h2 {
+     font-size: 30px;
+     color    : var(--color-1);
+ }
 
-.credit a:hover {
-    text-decoration: underline;
-    transition     : 0.3s;
-}
+ @media all and (max-width: 410px) {
+     h2 {
+         font-size: 20px;
+     }
+ }
 
-.abstract {
-    display       : flex;
-    flex-direction: column;
-    gap           : 15px;
-    margin        : 10px 0;
-}
+ .author-date {
+     display: flex;
+ }
 
+ @media all and (max-width: 410px) {
+     .author-date {
+         flex-direction: column;
+     }
+ }
 
-#links {
-    display: inline-flex;
-}
+ .author-date>* {
+     margin   : 0;
+     font-size: 15px;
+ }
 
-@media all and (max-width: 470px) {
-    #links {
-        flex-direction: column;
-    }
-}
+ @media all and (max-width: 410px) {
+     .author-date>* {
+         font-size: 13px;
+     }
+ }
 
-.lb {
-    margin    : 5px;
-    padding   : 5px;
-    text-align: center;
-}
+ .author {
+     padding-right: 15px;
+ }
 
-.lb li {
-    margin : 0px;
-    padding: 5px;
-}
+ @media all and (max-width: 410px) {
+     .author {
+         font-weight: bold;
+     }
+ }
 
-.lb-head {
-    border-bottom      : 2px;
-    border-bottom-style: solid;
-    border-color       : var(--color-4);
-    font-size          : 15px;
-    font-weight        : bold;
-}
+ .date {
+     border-left : 3px solid var(--color-4);
+     padding-left: 15px;
+ }
 
-.lb-content {
-    display        : flex;
-    font-size      : 30px;
-    justify-content: center;
-}
-
-.lb-content a {
-    color: gray;
-}
-
-.lb-content-dl {
-    font-family: "Font Awesome 5 free";
-}
-
-.lb-content-link {
-    font-family    : "Font Awesome 5 Brands";
-    text-decoration: none;
-}
-
-.lb-content a:hover {
-    color      : var(--color-1);
-    font-weight: 900;
-    transition : 0.3s;
-}
-
-#pdf-article::before {
-    content: '\f1c1';
-}
-
-#xls-models::before {
-    content: '\f1c3';
-}
-
-#linkedin::before {
-    content: '\f0e1';
-}
-
-#linkedin:hover::before {
-    content: '\f08c';
-}
-
-#medium::before {
-    content: '\f3c7';
-}
-
-#medium:hover::before {
-    content: '\f23a';
-}
+ @media all and (max-width: 410px) {
+     .date {
+         border-left : unset;
+         padding-left: unset;
+         padding-top : 10px;
+     }
+ }
 
 
-@media all and (max-width: 270px) {
-    .lb-content {
-        flex-direction: column;
-    }
-}
+ .illustr {
+     margin-top: 10px;
+ }
 
-.lb-content li {
-    margin-top: 5px;
-}
+ .illustr img {
+     width        : 100%;
+     border-radius: 0.5%;
+ }
 
-.lb-ext {
-    font-size  : smaller;
-    font-weight: bolder;
-}
+ .credit {
+     font-size  : x-small;
+     color      : dimgray;
+     margin-left: 5px;
+ }
 
-p .kw {
-    font-style: italic;
-}
+ .credit a {
+     text-decoration: none;
+     color          : unset;
+     font-style     : unset;
+ }
 
-a.anchor-link {
-    text-decoration: none;
-    color          : unset;
-}
+ .credit::after {
+     content    : '\f35d';
+     font-family: "Font Awesome 5 free";
+     font-weight: 900;
+ }
 
-a.anchor-link:hover {
-    background-color: var(--color-5);
-    transition      : 0.3s;
-}
+ .credit a:hover {
+     text-decoration: underline;
+     transition     : 0.3s;
+ }
+
+ .abstract {
+     display       : flex;
+     flex-direction: column;
+     gap           : 15px;
+     margin        : 10px 0;
+ }
 
 
-a.anchor-link:hover::after {
-    content    : '\f0c1';
-    font-family: "Font Awesome 5 free";
-    font-weight: 900;
-}
+ #links {
+     display: inline-flex;
+ }
+
+ @media all and (max-width: 470px) {
+     #links {
+         flex-direction: column;
+     }
+ }
+
+ .lb {
+     margin    : 5px;
+     padding   : 5px;
+     text-align: center;
+ }
+
+ .lb li {
+     margin : 0px;
+     padding: 5px;
+ }
+
+ .lb-head {
+     border-bottom      : 2px;
+     border-bottom-style: solid;
+     border-color       : var(--color-4);
+     font-size          : 15px;
+     font-weight        : bold;
+ }
+
+ .lb-content {
+     display        : flex;
+     font-size      : 30px;
+     justify-content: center;
+ }
+
+ .lb-content a {
+     color: gray;
+ }
+
+ .lb-content-dl {
+     font-family: "Font Awesome 5 free";
+ }
+
+ .lb-content-link {
+     font-family    : "Font Awesome 5 Brands";
+     text-decoration: none;
+ }
+
+ .lb-content a:hover {
+     color      : var(--color-1);
+     font-weight: 900;
+     transition : 0.3s;
+ }
+
+ #pdf-article::before {
+     content: '\f1c1';
+ }
+
+ #xls-models::before {
+     content: '\f1c3';
+ }
+
+ #linkedin::before {
+     content: '\f0e1';
+ }
+
+ #linkedin:hover::before {
+     content: '\f08c';
+ }
+
+ #medium::before {
+     content: '\f3c7';
+ }
+
+ #medium:hover::before {
+     content: '\f23a';
+ }
+
+
+ @media all and (max-width: 270px) {
+     .lb-content {
+         flex-direction: column;
+     }
+ }
+
+ .lb-content li {
+     margin-top: 5px;
+ }
+
+ .lb-ext {
+     font-size  : smaller;
+     font-weight: bolder;
+ }
+
+ p .kw {
+     font-style: italic;
+ }
+
+ a.anchor-link {
+     text-decoration: none;
+     color          : unset;
+ }
+
+ a.anchor-link:hover {
+     background-color: var(--color-5);
+     transition      : 0.3s;
+ }
+
+
+ a.anchor-link:hover::after {
+     content    : '\f0c1';
+     font-family: "Font Awesome 5 free";
+     font-weight: 900;
+ }
