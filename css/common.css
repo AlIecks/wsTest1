@@ -12,8 +12,6 @@
     min-height: calc(100vh - var(--footer-height));
 }
 
-
-
 body {
     background-color: var(--color-2);
 }
@@ -27,7 +25,6 @@ body {
     max-width       : calc(var(--content-width));
 }
 
-
 .content-1 {
     background-color: cadetblue;
     padding         : var(--content-padding-top-bottom) var(--content-padding-side);
@@ -39,7 +36,6 @@ body {
     .content-1 {
         padding: 10px;
     }
-
 }
 
 .point-1 {
@@ -52,9 +48,6 @@ body {
 .point-1 p {
     padding: 10px 0;
 }
-
-
-
 
 .button {
     background         : rgb(192, 192, 192);
@@ -82,21 +75,6 @@ body {
     display: flex;
 }
 
-
-
-
-
-
-h1 {
-    font-size: 24px;
-}
-
-h2 {
-    font-size: 18px;
-}
-
-
-
 main {
     padding-top: calc(var(--navbar-height) * 1.5);
 }
@@ -115,7 +93,6 @@ section {
     padding: 50px var(--padding-side);
 }
 
-
 .section-wrapper {
     max-width: calc(var(--content-width) * 0.9);
 }
@@ -124,4 +101,14 @@ h1 {
     font-size    : 44px;
     color        : var(--color-1);
     margin-bottom: 20px;
+}
+
+@media all and (max-width: 410px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
+h2 {
+    font-size: 18px;
 }
