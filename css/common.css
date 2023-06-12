@@ -1,5 +1,5 @@
 @import url("variables.css");
-@import url('https   ://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https ://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 * {
     margin     : 0 auto;
@@ -11,6 +11,8 @@
 .wrapper {
     min-height: calc(100vh - var(--footer-height));
 }
+
+
 
 body {
     background-color: var(--color-2);
@@ -25,6 +27,7 @@ body {
     max-width       : calc(var(--content-width));
 }
 
+
 .content-1 {
     background-color: cadetblue;
     padding         : var(--content-padding-top-bottom) var(--content-padding-side);
@@ -36,6 +39,7 @@ body {
     .content-1 {
         padding: 10px;
     }
+
 }
 
 .point-1 {
@@ -48,6 +52,9 @@ body {
 .point-1 p {
     padding: 10px 0;
 }
+
+
+
 
 .button {
     background         : rgb(192, 192, 192);
@@ -75,6 +82,8 @@ body {
     display: flex;
 }
 
+
+
 main {
     padding-top: calc(var(--navbar-height) * 1.5);
 }
@@ -92,6 +101,7 @@ section {
     width  : 100%;
     padding: 50px var(--padding-side);
 }
+
 
 .section-wrapper {
     max-width: calc(var(--content-width) * 0.9);

@@ -9,7 +9,6 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
-
 $(function () {
     $('.hamburger').click(function () {
         $('.items').toggleClass("show");
@@ -17,7 +16,6 @@ $(function () {
         return false;
     });
 });
-
 
 $(function () {
     $('html').click(function () {
@@ -28,14 +26,12 @@ $(function () {
     });
 });
 
-
 $(document).on('keydown', function (event) {
     if (event.key == "Escape" && $('ul li').attr('class') == 'logo hide') {
         $('.items').toggleClass("show");
         $('ul li').toggleClass("hide");
     }
 });
-
 
 $(function () {
     var lastScrollTop = 0, delta = 5;
@@ -52,7 +48,6 @@ $(function () {
     });
 });
 
-
 $(function () {
     $('.smoothScroll').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -67,7 +62,6 @@ $(function () {
         }
     });
 });
-
 
 function animateValue(id, start, end, duration) {
 

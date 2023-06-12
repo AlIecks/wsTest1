@@ -1,7 +1,5 @@
 @import url("variables.css");
 
-
-
 @keyframes moveDown {
     from {
         top: -100px;
