@@ -45,6 +45,10 @@ nav ul li.items {
     align-items: center;
 }
 
+#current {
+    color: var(--color-5);
+}
+
 @media all and (max-width: 900px) {
     nav ul li {
         padding: 15px 0;
